@@ -66,7 +66,7 @@ document.onkeyup = function(event) {
                 yay.play();
                 document.querySelector('#wins').innerHTML = "Wins: " + wins;
                 userGuess = userGuess.toUpperCase();
-                alert("Yes, you are psychic! Mantis has chosen " + userGuess);
+                alert("Yes, you are psychic! Doctor Strange has chosen " + userGuess);
                 reset();
             }
         } else if (guessesLeft == 0) {
